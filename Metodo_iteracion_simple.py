@@ -1,8 +1,7 @@
 #Método iteración simple de punto fijo
-import math as mth
-from py_expression_eval import Parser
 
-Parser = Parser()
+import math as mth
+
 
 def Error(xi,gxi,iteracion):
 
@@ -19,7 +18,7 @@ def Gxi(xi,gx):
     e = mth.e
     x = xi
 
-    gxi = float(eval(gx))
+    gxi = eval(gx)
 
     return gxi
 
@@ -28,7 +27,7 @@ def Fxi(xi,fx):
     e = mth.e
     x = xi
 
-    fxi = float(eval(fx))
+    fxi = eval(fx)
 
     return fxi
 def Iteracion_simple(xi,gx,fx,error_parada,iteracion):
