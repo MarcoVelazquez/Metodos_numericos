@@ -6,9 +6,9 @@ import math as mth
 parser = Parser()
 
 def Fxi(xi,ecuacion):
-    e = mth.e
-    pi = mth.pi
-    x = xi
+    e = mth.e   #}
+    pi = mth.pi  #}Constantes
+    x = xi      #}
     fxi = eval(ecuacion)
     return fxi
 
