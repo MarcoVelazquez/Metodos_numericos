@@ -38,31 +38,31 @@ def Iteracion_simple(xi,gx,fx,error_parada,iteracion):
 
         if Error(xi,Gxi(xi,gx),iteracion) > error_parada:
 
-            print(iteracion,"\t\t",int(xi),"\t",int(Gxi(xi,gx)),"\t",int(Fxi(xi,fx)),"\t",int(Error(xi,Gxi(xi,gx),iteracion)))
+            print(iteracion,"\t\t",xi,"\t",Gxi(xi,gx),"\t",Fxi(xi,fx),"\t",Error(xi,Gxi(xi,gx),iteracion))
 
             Iteracion_simple(Gxi(xi,gx),gx,fx,error_parada,iteracion)
         else:
             print("""
-            La tolerancia ha sido satisfacida en g(x) igual a """,Gxi(xi,gx)," y un error de ",Error(xi,Gxi(xi,gx),iteracion),"%\n")
+            La tolerancia ha sido satisfacida en g(xi) igual a """,Gxi(xi,gx)," y un error de ",Error(xi,Gxi(xi,gx),iteracion),"%\n")
             return False
 
     else:
 
         if Error(xi,Gxi(xi,gx),iteracion) != error_parada:
 
-            print(iteracion,"\t\t",int(xi),"\t",int(Gxi(xi,gx)),"\t",int(Fxi(xi,fx)),"\t",int(Error(xi,Gxi(xi,gx),iteracion)))
+            print(iteracion,"\t\t",xi,"\t",Gxi(xi,gx),"\t",Fxi(xi,fx),"\t",Error(xi,Gxi(xi,gx),iteracion))
 
             Iteracion_simple(Gxi(xi,gx),gx,fx,error_parada,iteracion)
         else:
             print("""
-            La tolerancia ha sido satisfacida en g(x) igual a """,Gxi(xi,gx)," y un error de ",Error(xi,Gxi(xi,gx),iteracion),"%\n")
+            La tolerancia ha sido satisfacida en g(xi) igual a """,Gxi(xi,gx)," y un error de ",Error(xi,Gxi(xi,gx),iteracion),"%\n")
             return False
 
 
 
 def Menu():
     #Encabezado
-    print("\n\t MÉTODOS NUMERICOS\n\n\tMétodo de punto fijo\n\n")
+    print("\n\t MÉTODOS NUMERICOS\n\n\tMétodo de falsa posición\n\n")
 
     fx = input("Ingresa f(x) ---> ")
     gx = input("\nIngresa g(x) ---> ")

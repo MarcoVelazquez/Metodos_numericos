@@ -1,9 +1,16 @@
 #Método de bisección
 
-#from py_expression_eval import Parser
+
 import math as mth
 
 #parser = Parser()
+
+def Fxu(xu,ecuacion):
+    e = mth.e   #}
+    pi = mth.pi  #}Constantes
+    x = xu      #}
+    fxu = eval(ecuacion)
+    return fxu
 
 def Fxi(xi,ecuacion):
     e = mth.e   #}
@@ -12,8 +19,8 @@ def Fxi(xi,ecuacion):
     fxi = eval(ecuacion)
     return fxi
 
-def Xr(xi,xu):
-    xr = float((xi +xu)/2)
+def Xr(xi,xu,ecuacion):
+    xr = float(xu-((xi-xu))/(Fxi(xi,ecuacion)-Fxu(xu,ecuacion)))
     return xr
 
 def Fxr(xr,ecuacion):
@@ -30,14 +37,11 @@ def Error(xr,xr_anterior):
 def Biseccion_error(xi,xu,ecuacion,xr_anterior,iteracion,error_sugerido):
     iteracion+=1
     fxi = Fxi(xi,ecuacion)
-    xr = Xr(xi,xu)
+    xr = Xr(xi,xu,ecuacion)
     fxr = Fxr(xr,ecuacion)
     error = Error(xr,xr_anterior)
 
-    if iteracion != 1:
-        print(iteracion,"\t\t",mth.floor(xi),"\t",mth.floor(xu),"\t",mth.floor(fxi),"\t",mth.floor(xr),"\t",mth.floor(fxr),"\t",mth.floor(error),"\n")
-    else: 
-        print(iteracion,"\t\t",mth.floor(xi),"\t",mth.floor(xu),"\t",mth.floor(fxi),"\t",mth.floor(xr),"\t",mth.floor(fxr),"\t---\n")
+    print(iteracion,"\t\t",mth.floor(xi),"\t",mth.floor(xu),"\t",mth.floor(fxi),"\t",mth.floor(xr),"\t",mth.floor(fxr),"\t",mth.floor(error),"\n")
     
     if fxi*fxr < 0:
         xu = xr
@@ -59,13 +63,13 @@ def Biseccion_error(xi,xu,ecuacion,xr_anterior,iteracion,error_sugerido):
 def Biseccion_iteracion(xi,xu,ecuacion,xr_anterior,iteracion,iteracion_sugerida):
     iteracion += 1
     fxi = Fxi(xi,ecuacion)
-    xr = Xr(xi,xu)
+    xr = Xr(xi,xu,ecuacion)
     fxr = Fxr(xr,ecuacion)
     error = Error(xr,xr_anterior)
     if iteracion != 1:
         print(iteracion,"\t\t",mth.floor(xi),"\t",mth.floor(xu),"\t",mth.floor(fxi),"\t",mth.floor(xr),"\t",mth.floor(fxr),"\t",mth.floor(error),"\n")
-    else: 
-        print(iteracion,"\t\t",mth.floor(xi),"\t",mth.floor(xu),"\t",mth.floor(fxi),"\t",mth.floor(xr),"\t",mth.floor(fxr),"\t---\n")
+    else : 
+        print(iteracion,"\t\t",mth.floor(xi),"\t",mth.floor(xu),"\t",mth.floor(fxi),"\t",mth.floor(xr),"\t",mth.floor(fxr),"\t0\n")
     if fxi*fxr < 0:
         xu = xr
     elif fxi*fxr > 0:
@@ -85,7 +89,7 @@ def Biseccion_iteracion(xi,xu,ecuacion,xr_anterior,iteracion,iteracion_sugerida)
 
 def Menu():
     #Encabezado
-    print("\n\t MÉTODOS NUMERICOS\n\n\tMétodo de bisección\n\n")
+    print("\n\t MÉTODOS NUMERICOS\n\n\tMétodo de falsa posición\n\n")
 
     while True:
 
