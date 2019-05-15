@@ -1,0 +1,14 @@
+C:\Users\anton\Documents\Métodos numericos\om\Met\Met\bin\Debug\Met.exe.config
+C:\Users\anton\Documents\Métodos numericos\om\Met\Met\bin\Debug\Met.exe
+C:\Users\anton\Documents\Métodos numericos\om\Met\Met\bin\Debug\Met.pdb
+C:\Users\anton\Documents\Métodos numericos\om\Met\Met\obj\Debug\Met.csprojAssemblyReference.cache
+C:\Users\anton\Documents\Métodos numericos\om\Met\Met\obj\Debug\Met.Form1.resources
+C:\Users\anton\Documents\Métodos numericos\om\Met\Met\obj\Debug\Met.Properties.Resources.resources
+C:\Users\anton\Documents\Métodos numericos\om\Met\Met\obj\Debug\Met.csproj.GenerateResource.cache
+C:\Users\anton\Documents\Métodos numericos\om\Met\Met\obj\Debug\Met.csproj.CoreCompileInputs.cache
+C:\Users\anton\Documents\Métodos numericos\om\Met\Met\obj\Debug\Met.exe
+C:\Users\anton\Documents\Métodos numericos\om\Met\Met\obj\Debug\Met.pdb
+C:\Users\anton\Documents\Métodos numericos\om\Met\Met\bin\Debug\Tools.dll
+C:\Users\anton\Documents\Métodos numericos\om\Met\Met\bin\Debug\Tools.pdb
+C:\Users\anton\Documents\Métodos numericos\om\Met\Met\obj\Debug\Met.csproj.CopyComplete
+C:\Users\anton\Documents\Métodos numericos\om\Met\Met\bin\Debug\Calculus.dll

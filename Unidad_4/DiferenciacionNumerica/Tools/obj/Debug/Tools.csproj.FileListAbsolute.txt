@@ -1,0 +1,8 @@
+C:\Users\anton\Documents\Métodos numericos\om\Met\Tools\bin\Debug\Tools.dll
+C:\Users\anton\Documents\Métodos numericos\om\Met\Tools\bin\Debug\Tools.pdb
+C:\Users\anton\Documents\Métodos numericos\om\Met\Tools\obj\Debug\Tools.csprojAssemblyReference.cache
+C:\Users\anton\Documents\Métodos numericos\om\Met\Tools\obj\Debug\Tools.csproj.CoreCompileInputs.cache
+C:\Users\anton\Documents\Métodos numericos\om\Met\Tools\obj\Debug\Tools.dll
+C:\Users\anton\Documents\Métodos numericos\om\Met\Tools\obj\Debug\Tools.pdb
+C:\Users\anton\Documents\Métodos numericos\om\Met\Tools\bin\Debug\Calculus.dll
+C:\Users\anton\Documents\Métodos numericos\om\Met\Tools\obj\Debug\Tools.csproj.CopyComplete

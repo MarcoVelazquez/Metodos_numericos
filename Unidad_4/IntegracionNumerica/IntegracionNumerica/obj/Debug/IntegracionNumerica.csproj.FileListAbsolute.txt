@@ -1,0 +1,12 @@
+C:\Users\anton\Documents\Métodos numericos\Unidad 4\IntegracionNumerica\IntegracionNumerica\bin\Debug\IntegracionNumerica.exe.config
+C:\Users\anton\Documents\Métodos numericos\Unidad 4\IntegracionNumerica\IntegracionNumerica\bin\Debug\IntegracionNumerica.exe
+C:\Users\anton\Documents\Métodos numericos\Unidad 4\IntegracionNumerica\IntegracionNumerica\bin\Debug\IntegracionNumerica.pdb
+C:\Users\anton\Documents\Métodos numericos\Unidad 4\IntegracionNumerica\IntegracionNumerica\obj\Debug\IntegracionNumerica.csprojAssemblyReference.cache
+C:\Users\anton\Documents\Métodos numericos\Unidad 4\IntegracionNumerica\IntegracionNumerica\obj\Debug\IntegracionNumerica.Form1.resources
+C:\Users\anton\Documents\Métodos numericos\Unidad 4\IntegracionNumerica\IntegracionNumerica\obj\Debug\IntegracionNumerica.Properties.Resources.resources
+C:\Users\anton\Documents\Métodos numericos\Unidad 4\IntegracionNumerica\IntegracionNumerica\obj\Debug\IntegracionNumerica.csproj.GenerateResource.cache
+C:\Users\anton\Documents\Métodos numericos\Unidad 4\IntegracionNumerica\IntegracionNumerica\obj\Debug\IntegracionNumerica.csproj.CoreCompileInputs.cache
+C:\Users\anton\Documents\Métodos numericos\Unidad 4\IntegracionNumerica\IntegracionNumerica\obj\Debug\IntegracionNumerica.exe
+C:\Users\anton\Documents\Métodos numericos\Unidad 4\IntegracionNumerica\IntegracionNumerica\obj\Debug\IntegracionNumerica.pdb
+C:\Users\anton\Documents\Métodos numericos\Unidad 4\IntegracionNumerica\IntegracionNumerica\bin\Debug\Calculus.dll
+C:\Users\anton\Documents\Métodos numericos\Unidad 4\IntegracionNumerica\IntegracionNumerica\obj\Debug\IntegracionNumerica.csproj.CopyComplete
